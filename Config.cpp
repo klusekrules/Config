@@ -33,7 +33,7 @@ Config::Config(const char* configFile)
 			}
 		}
 		else {
-			throw std::exception("BOXPLOSIVE: Cannot open config file.");
+			throw std::exception("Cannot open config file.");
 		}
 	}
 }

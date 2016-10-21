@@ -43,7 +43,7 @@ const char * Config::operator[](const char* name) const {
 	if (iter != ustawienia_.end()) {
 		return iter->second.c_str();
 	}
-	return NULL;
+	return nullptr;
 }
 
 void Config::getLine(std::fstream& file, std::string& name, std::string& value) const {
